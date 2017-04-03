@@ -1,0 +1,371 @@
+@media only screen  and (min-width : 701px) {
+.div_header{
+    
+    height: 219px;
+    width: 100%;
+	min-width: 352px;
+	    padding-left: 50px;
+    padding-right: 50px;
+}
+.logo_header{
+	height: 130px;
+    width: 100px;
+	min-width: 352px;
+	    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#li_menu_header{
+	text-align:center;
+	    padding-right: 31px;
+}
+
+.nav_menu_header{
+    /* background: #005CA3; */
+    background: -webkit-linear-gradient(top, #3F51B5 0, #F44336 100%) no-repeat;
+    border-radius: 11px 11px 0 0;
+    padding: 6px;
+    z-index: 100;
+    margin: 0;
+    width: 100%;
+    text-align: left;
+		min-width: 352px;
+		height: 60px;
+		
+}
+
+.ul_menu_header{
+	list-style: none;
+	padding-left:0px;
+    float: none;
+    text-align: center;
+	display: flex;
+}
+
+#text_menu_li{
+	 text-decoration:none;
+	 font-size: 25px;
+    font-family: cursive;
+	    color: cornsilk;
+		    display: inline;
+}
+
+
+		ul.ul_menu_header>li:hover>a {
+      
+    background: -webkit-linear-gradient(top, #8a97a1 0, #888d92 100%) no-repeat;
+    border-radius: 15px;
+    border: 1px solid #f7f7f7;
+    padding: 0px 50px;
+    margin: -6px auto;
+}
+	.ul_redes{
+			list-style: none;
+		float: left;
+	}
+
+	.ul_contacto{
+		   list-style: none;
+		float: left;
+	}
+
+	#li_contacto{
+		float:left;
+	}
+
+	#li_redes{
+		float:left;
+		width: 100px;
+	}
+
+	#img_redes{
+		width: 100%;
+    height: 76px;
+    padding-right: 18px;
+
+	}
+			
+	.div_footer{
+		    background: #e8e8e8;
+    width: 100%;
+    height: 217px;
+    min-width: 352px;
+	    padding-left: 50px;
+    padding-right: 50px;
+	}
+			
+			#div_foot1{
+				    height: 100%;
+					float:left;
+    width: 500px;
+    font-size: x-large;
+    font-family: cursive;
+    background: #e8e8e8
+			}
+				#div_foot2{
+			    height: 100%;
+				float:right;
+    width: 500px;
+    font-size: x-large;
+    font-family: cursive;
+    background: #e8e8e8
+			}
+			
+			#li_menu_cont{
+				padding-left:30px;
+			}
+			
+					/*ELISA*/
+		#div_formulario{
+			    padding-bottom: 26px;
+				padding-left:55px;
+				padding-right:50px;
+				width:100%;
+		}
+		
+.contactenos{
+   width: 100%;
+   height: 480px;
+   /*margin: auto;*/
+   box-sizing: border-box;
+   background: rgba(192,192,192,0.3);
+  /*padding: 10px 20px;*/
+   border-radius: 7px;
+   position: relative;
+   bottom: -20px;
+   
+
+}
+.input-normal{
+    width: 48%;
+    margin-bottom:20px;
+        margin-right: -2px;
+    padding: 7px ;
+    position: relative;
+    right: 10px;
+    left: 10px;
+    box-sizing: border-box;
+}
+textarea{
+    width: 48%;
+    margin-bottom:20px;
+    padding: 7px ;
+     position: relative;
+    right: 10px;
+    left: 10px;
+    box-sizing: border-box;
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+.contactenos select {
+    width: 48%;
+    margin-bottom:20px;
+    padding: 7px ;
+     position: relative;
+    right: 10px;
+    left: 10px;
+    box-sizing: border-box;
+}
+.btn_comentarios{
+    background:#1656A2 ;
+    color: #fff;
+    padding: 7px;
+    width: 30%;
+   
+        display: inherit;
+    right: 10px;
+
+}
+.form-titulo{
+    background:#1656A2 ;
+    color:#fff ;
+    padding: 20px;
+    text-align: center;
+    font-weight: 100
+    font-size: 30px;
+    border-bottom: 3px solid crimson;
+	
+	
+}
+		
+}	
+
+@media only screen and (max-width : 700px) {
+	
+.div_header{
+    
+   
+    width: 100%;
+	min-width: 352px;
+	height: 344px;
+}
+.logo_header{
+	height: 100px;
+    width: 50px;
+	min-width: 150px;
+}
+
+#li_menu_header{
+	text-align:center;
+	    float: none;
+		    height: 37px;
+}
+
+.nav_menu_header{
+    /* background: #005CA3; */
+    background: -webkit-linear-gradient(top, #3F51B5 0, #F44336 100%) no-repeat;
+    border-radius: 11px 11px 0 0;
+    padding: 6px;
+    z-index: 100;
+    margin: 0;
+    width: 100%;
+    text-align: left;
+		min-width: 352px;
+		height: 174px;
+}
+
+.ul_menu_header{
+	list-style: none;
+	padding-left:0px;
+	display: block;
+    float: none;
+    text-align: center;
+}
+
+#text_menu_li{
+	 text-decoration:none;
+	 font-size: 25px;
+    font-family: cursive;
+	    color: cornsilk;
+}
+
+
+		ul.ul_menu_header>li:hover>a {
+      
+    background: -webkit-linear-gradient(top, #8a97a1 0, #888d92 100%) no-repeat;
+    border-radius: 15px;
+    border: 1px solid #f7f7f7;
+    padding: 0px 110px;
+    margin: 0 auto;
+	       display: inline;
+}
+	.ul_redes{
+			list-style: none;
+		float: left;
+	}
+
+	.ul_contacto{
+		   list-style: none;
+		float: left;
+	}
+
+	#li_contacto{
+		float:left;
+	}
+
+	#li_redes{
+		float:left;
+		width: 100px;
+	}
+
+	#img_redes{
+		width: 100%;
+    height: 76px;
+    padding-right: 18px;
+
+	}
+			
+	.div_footer{
+			background: #e8e8e8;
+		width: 100%;
+		height: 411px;
+		min-width: 352px;
+	}
+			
+			#div_foot1{
+					height: 250px;
+					font-size: x-large;
+		font-family: cursive;
+		background:#e8e8e8;
+			}
+				#div_foot2{
+					height: 138px;
+					font-size: x-large;
+		font-family: cursive;
+		background:#e8e8e8;
+			}
+		
+		/*ELISA*/
+		#div_formulario{
+			    padding-bottom: 26px;
+				width:100%;
+		}
+		
+.contactenos{
+  width: 100%;
+   height: 480px;
+   /*margin: auto;*/
+   box-sizing: border-box;
+   background: rgba(192,192,192,0.3);
+  /*padding: 10px 20px;*/
+   border-radius: 7px;
+   position: relative;
+   bottom: -20px;
+
+}
+.input-normal{
+    width: 95%;
+    margin-bottom:20px;
+    margin-right: 20px;
+    padding: 7px ;
+    position: relative;
+    right: 10px;
+    left: 10px;
+    box-sizing: border-box;
+}
+textarea{
+    width: 95%;
+    margin-bottom:20px;
+    padding: 7px ;
+     position: relative;
+    right: 10px;
+    left: 10px;
+    box-sizing: border-box;
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+.contactenos select {
+    width: 95%;
+    margin-bottom:20px;
+    padding: 7px ;
+     position: relative;
+    right: 10px;
+    left: 10px;
+    box-sizing: border-box;
+}
+.btn_comentarios{
+    background:#1656A2 ;
+    color: #fff;
+    padding: 7px;
+    width: 30%;
+    float: right;
+    position: relative;
+    right: 10px;
+
+}
+.form-titulo{
+    background:#1656A2 ;
+    color:#fff ;
+    padding: 20px;
+    text-align: center;
+    font-weight: 100
+    font-size: 30px;
+    border-bottom: 3px solid crimson;
+	
+	
+}
+
+
+}
