@@ -188,6 +188,27 @@ textarea{
 	
 	
 }
+.div_nuestra_compania
+{
+	padding-left: 50px;
+    padding-right: 30px;
+    font-family: cursive;
+    text-align: justify;
+    width: 45%;
+	    float: left;
+		    background: #e8e8e8;
+}
+
+#div_mision_vision{
+	
+    font-family: cursive;
+    text-align: justify;
+   padding-right:50px;
+	     width: 100%;
+		     background: #e8e8e8;
+		  
+	  
+}
 		
 }	
 
@@ -223,6 +244,29 @@ textarea{
     text-align: left;
 		min-width: 352px;
 		height: 174px;
+}
+
+.div_nuestra_compania
+{
+	padding-left: 50px;
+    padding-right: 30px;
+    font-family: cursive;
+    text-align: justify;
+       width: 100%;
+	    float: left;
+		    background: #e8e8e8;
+}
+
+#div_mision_vision{
+	
+    font-family: cursive;
+    text-align: justify;
+      padding-left: 50px;
+    padding-right: 30px;
+	     width: 100%;
+		     background: #e8e8e8;
+		  
+	  
 }
 
 .ul_menu_header{
