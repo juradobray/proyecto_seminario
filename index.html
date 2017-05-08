@@ -5,8 +5,11 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>MAFE consultores y asesores</title>
+		
         <link rel="stylesheet" type="text/css" media="only screen  and (min-width : 700px)" href="resources/css/index.css">
-		        <link rel="stylesheet" type="text/css" media="only screen and (max-width : 700px)" href="resources/css/index.css">
+		      
+			  <link rel="stylesheet" type="text/css" media="only screen and (max-width : 700px)" href="resources/css/index.css">
+			
 
 		
 		<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -25,8 +28,9 @@
                 <img class="logo_header" src="resources/images/logo.jpg">
             </figure>        
 			</center>
-            <nav class="nav_menu_header"> 
-                <ul class="ul_menu_header">
+            <nav class="nav_menu_header indigo darken-4 col s12 m6"> 
+			<a href="#" class="brand-logo">Logo</a>
+                <ul class="ul_menu_header right hide-on-med-and-down">
 
                     <li id="li_menu_header">
                         <a id="text_menu_li" href="index.html" >Inicio</a>
@@ -47,19 +51,25 @@
             </nav>
         </div>
 
- <div class="carousel" style="    padding-left: 50px;
-    padding-right: 50px;">
+ <div class="carousel" >
     <a class="carousel-item" href="#one!"><img src="resources/images/logo.jpg"></a>
     <a class="carousel-item" href="#two!"><img src="resources/images/porvenir.gif"></a>
     <a class="carousel-item" href="#three!"><img src="resources/images/positiva.png"></a>
     <a class="carousel-item" href="#four!"><img src="resources/images/sura_arl.jpg"></a>
     <a class="carousel-item" href="#five!"><img src="resources/images/coomeva_epx.jpg"></a>
   </div>
+  
+      <div id="map_container"" class="card-panel teal lighten-2 col s12 m6">
+  <h3 style="text-align:center;">Visìtanos!!</h3>
+    <div id="map" class="col s12 m6"></div>
+</div>
       
 		
-		<div class="div_footer">
-			<div id="div_foot1">
+		<footer class="div_footer blue-grey lighten-2 col s12">
+		<div id="div_foot1" class="col s6 m6" >
+			<div>
 			Ubicacion:
+			</div>
 				<div>
 				<ul class="ul_contacto">
 				<li id="li_menu_cont">Dirección: Calle xx #x-xx </li>
@@ -69,11 +79,14 @@
 				</ul>
 					
 				</div>
-			
 			</div>
-			<div id="div_foot2">
+		
+			
+			<div  id="div_foot1" class="col s6 m6">
+			<div>
 			Síguenos:
-			<div >
+			</div>
+			<div>
 			<ul class="ul_redes">			
                             <li id="li_redes">
                                 <a href="https://www.facebook.com/bray0607" ><img id="img_redes" src="resources/images/facebook.png"></a>
@@ -86,9 +99,9 @@
                             </li>
 
                         </ul>
+						</div>
 			</div>
-			</div>
-		</div>
+		</footer>
 
  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
       <script type="text/javascript" src="resources/materialize/js/materialize.min.js"></script>
@@ -97,6 +110,48 @@
       $('.carousel').carousel();
     });
 	  </script>
+	  
+	   <script>
+      function initMap() {
+	  
+	   var contentString = '<div id="content">'+
+            '<div id="siteNotice">'+
+            '</div>'+
+            '<h4 id="firstHeading">MAFE consultores y asesores</h4>'+
+            '<div id="bodyContent">'+
+            '<p>Visitenos para tener el gusto de atenderlo!!<br/>Estamos ubicados en: Calle xx ·xx-xx </p>'+
+           
+            '</div>'+
+            '</div>';
+			 var infowindow = new google.maps.InfoWindow({
+          content: contentString
+        });
+        var mafe_position = {lat: 3.391708, lng: -76.552253};
+		
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 17,
+          center: mafe_position
+        });
+		
+        var marker = new google.maps.Marker({
+          position: mafe_position,
+          map: map,
+		  title: 'MAFE asesores y consultores'
+        });
+				marker.addListener('click', function() {
+          infowindow.open(map, marker);
+        });
+
+      }
+		
+		
+		
+		
+      
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDESqdg6S0qMwWiRi2qZYRwk1oCcdf5tVE&callback=initMap">
+    </script>
 		
     </body>
 
