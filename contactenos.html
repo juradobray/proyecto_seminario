@@ -4,23 +4,33 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>MAFE consultores y asesores</title>
-		  <link rel="stylesheet" type="text/css" media="only screen  and (min-width : 700px)" href="resources/css/index.css">
-		        <link rel="stylesheet" type="text/css" media="only screen and (max-width : 700px)" href="resources/css/index.css">
+		
+        <link rel="stylesheet" type="text/css" media="only screen  and (min-width : 700px)" href="resources/css/index.css">
+		      
+			  <link rel="stylesheet" type="text/css" media="only screen and (max-width : 700px)" href="resources/css/index.css">
+			
 
+		
+		<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="resources/materialize/css/materialize.min.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 				
     </head>
 
     <body>
-        <div class="div_header">	
+      <div class="div_header">
 <center>		
             <figure >
                 <img class="logo_header" src="resources/images/logo.jpg">
             </figure>        
 			</center>
-            <nav class="nav_menu_header"> 
-                <ul class="ul_menu_header">
+            <nav class="nav_menu_header indigo darken-4 col s12 m6"> 
+			<a href="#" class="brand-logo">Logo</a>
+                <ul class="ul_menu_header right hide-on-med-and-down">
 
                     <li id="li_menu_header">
                         <a id="text_menu_li" href="index.html" >Inicio</a>
@@ -35,30 +45,60 @@
                     </li>
 
                     <li id="li_menu_header">
-                        <a id="text_menu_li" href="#" >Contáctenos</a>
+                        <a id="text_menu_li" href="contactenos.html" >Contáctenos</a>
                     </li>	
                 </ul>
             </nav>
         </div>
 
         <div id="div_formulario" >
-        	<form  class="contactenos" action="">
+        	<form   action="">
         		<h2 class="form-titulo">Forma de Contacto</h2>
         		<div>
-        		<input type="text" name="Nombre" placeholder="Nombre" class="input-normal">
-
-        		<input type="text" name="Identificación" placeholder="Identificación" class="input-normal">
-
-        		<input type="email" name="Correo electronico" placeholder="Correo electrónico" class="input-normal">
-        		 <select name="Asunto" >
-        		 	    <option selected value="0"> Asunto:</option>
+				
+				   <div class="row">
+				   <div class="input-field col s6 m6">
+          <input id="num_doc" type="text" class="validate">
+          <label for="num_doc">Número de documento</label>
+        </div>
+       	 <div class="input-field col s6 m6">
+          <input id="nombre_compl" type="text" class="validate" >
+          <label for="nombre_compl">Nombre completo</label>
+        </div>
+        
+      </div>
+			
+        		 <div class="row">
+				   <div class="input-field col s6 m6">
+          <input id="email" type="email" class="validate">
+          <label for="email">Correo electrónico</label>
+        </div>
+       	 <div class="col s6 m6">
+		  <label for="seleccione">Asunto</label>
+           <select id="seleccione" class="browser-default">
+      <option value="" disabled selected>Choose your option</option>
+       <option selected value="0"> Asunto:</option>
                         <option value="1">General</option> 
                         <option value="2">Sugerencia</option> 
-                      
-                 </select>
-                 <textarea name="Comentario"placeholder=" Escribe tu comentario..."></textarea>
+    </select>
+   
+        </div>
+        
+      </div>
+	  <div class="row">
+				   <div class="input-field col s12 m6">
+          <textarea id="coment" class="materialize-textarea" data-length="800"></textarea>
+            <label for="coment">Comentarios</label>
+        </div>
+       
+        </div>
+        
+      
+
+        	
+                 
 				 <center>
-                <input type="button" value="Enviar" class="btn_comentarios">	
+             <a class="waves-effect waves-light btn">   <input type="button" value="Enviar" ></a>
 				</center>
                </div>
         	</form>
@@ -67,9 +107,11 @@
         </div>
 
 
-        	<div class="div_footer">
-		<div id="div_foot1">
+        	<footer class="div_footer blue-grey lighten-2 col s12 ">
+		<div id="div_foot1" class="col s6 m6" >
+			<div>
 			Ubicacion:
+			</div>
 				<div>
 				<ul class="ul_contacto">
 				<li id="li_menu_cont">Dirección: Calle xx #x-xx </li>
@@ -79,13 +121,16 @@
 				</ul>
 					
 				</div>
-			
 			</div>
-			<div id="div_foot2">
+		
+			
+			<div  id="div_foot1" class="col s6 m6">
+			<div>
 			Síguenos:
-			<div >
+			</div>
+			<div>
 			<ul class="ul_redes">			
-                          <li id="li_redes">
+                            <li id="li_redes">
                                 <a href="https://www.facebook.com/bray0607" ><img id="img_redes" src="resources/images/facebook.png"></a>
                             </li>
                             <li id="li_redes">
@@ -96,11 +141,12 @@
                             </li>
 
                         </ul>
+						</div>
 			</div>
-			</div>
-		</div>
+		</footer>
 
-
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="resources/materialize/js/materialize.min.js"></script>
        
 
 
