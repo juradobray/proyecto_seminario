@@ -8,11 +8,16 @@
     padding-right: 50px;
 }
 .logo_header{
-	height: 130px;
+	height: 130px !important;
     width: 100px;
 	min-width: 352px;
 	    padding-left: 50px;
     padding-right: 50px;
+}
+
+.quienes_somos
+{
+	 width: 100%; padding-bottom:60px; background:#e8e8e8; 
 }
 
 #li_menu_header{
@@ -206,7 +211,8 @@ textarea{
     padding-right: 30px;
     font-family: cursive;
     text-align: justify;
-    width: 45%;
+    /*width: 45%;
+    /*width: 45%;*/
 	    float: left;
 		    background: #e8e8e8;
 }
@@ -250,17 +256,18 @@ textarea{
    
     width: 100%;
 	min-width: 352px;
-	height: 344px;
+	    height: 186px;
 }
 .logo_header{
-	height: 100px;
+	height: 100%;
     width: 50px;
-	min-width: 150px;
+	/*min-width: 150px;*/
 }
 
 #li_menu_header{
 	text-align:center;
 	    float: none;
+		    padding-left: 80px;
 		    height: 37px;
 }
 
@@ -273,7 +280,7 @@ textarea{
     margin: 0;
     width: 100%;
     text-align: left;
-		min-width: 352px;
+		    min-width: 336px;
 		height: 174px;
 }
 
@@ -293,15 +300,17 @@ textarea{
     font-family: cursive;
     text-align: justify;
       padding-left: 50px;
-<<<<<<< HEAD
-    padding-right: 30px;
-=======
     padding-right: 30px;	
->>>>>>> master
+
 	     width: 100%;
 		     background: #e8e8e8;
 		  
 	  
+}
+
+.quienes_somos
+{
+	 width: 100%; padding-bottom:60px; background:#e8e8e8; margin-top: 60px;
 }
 
 .ul_menu_header{
@@ -320,16 +329,7 @@ textarea{
 }
 
 
-		ul.ul_menu_header>li:hover>a {
-      /*
-    background: -webkit-linear-gradient(top, #8a97a1 0, #888d92 100%) no-repeat;
-	*/
-  /*  border-radius: 15px;
-    border: 1px solid #f7f7f7; */
-    padding: 0px 110px;
-    margin: 0 auto;
-	       display: inline;
-}
+	
 	.ul_redes{
 			list-style: none;
 		float: left;
@@ -376,7 +376,7 @@ textarea{
 		font-family: cursive;
 		background:#e8e8e8;*/
 			    height: 100%;
-    width: 100%;
+    /*width: 100%;*/
     float: left;
 			}
 				#div_foot2{/*
@@ -390,6 +390,7 @@ textarea{
 		#div_formulario{
 			    padding-bottom: 26px;
 				width:100%;
+				margin-top: 58px;
 		}
 		
 .contactenos{
